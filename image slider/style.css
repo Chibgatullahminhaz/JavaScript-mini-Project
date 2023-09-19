@@ -1,0 +1,45 @@
+body{
+    background-color: red;
+}
+
+.container{
+    align-items: center;
+    text-align: center;
+    margin-top: 15vh;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+.slide-container{
+    position: relative;
+    max-width: 100%;
+    transition: all 0.6s;
+
+}
+
+.taitle{
+    color: blue;
+    font-size: 2.5rem;
+}
+  #prev{
+    position: absolute;
+    background: none;
+    top: 50%;
+    margin-bottom: 50%;
+    margin-right: -5%;
+    border: none;
+    color: rgb(22, 24, 24);
+  }
+  #next{
+    position: absolute;
+    background: none;
+    top: 50%;
+    margin-bottom: 50%;
+    margin-left: -5%;
+    border: none;
+    color: rgb(10, 11, 11);
+  }
+  p{
+    color: azure;
+  }
